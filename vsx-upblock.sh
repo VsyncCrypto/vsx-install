@@ -64,8 +64,7 @@ function compile_node() {
   cd $TMP_FOLDER
   wget --progress=bar:force $COIN_REPO 2>&1 | progressfilt
   compile_error
-  mv /snapshot/chainstate/ $CONFIGFOLDER >/dev/null 2>&1
-  mv /snapshot/blocks/ $CONFIGFOLDER >/dev/null 2>&1
+  mv bootstrap.dat $CONFIGFOLDER >/dev/null 2>&1
   compile_error
   cd - >/dev/null 2>&1
   rm -rf $TMP_FOLDER >/dev/null 2>&1
