@@ -4,7 +4,7 @@ CONFIG_FILE='vsync.conf'
 CONFIGFOLDER='/root/.vsync'
 COIN_DAEMON='/usr/local/bin/vsyncd'
 COIN_CLI='/usr/local/bin/vsync-cli'
-COIN_REPO='https://github.com/VsyncCrypto/'
+COIN_REPO='https://github.com/VsyncCrypto/VSX/releases/download/v3.8.6.1/vsync-daemon-3.8.6.1-linux64.rar'
 COIN_NAME='Vsync'
 COIN_PORT=65010
 
